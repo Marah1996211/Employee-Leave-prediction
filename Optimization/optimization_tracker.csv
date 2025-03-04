@@ -1,0 +1,19 @@
+#,Model Type,Accuracy,Precision,Recall,Notes
+1,Random Forest,85%,83%,71%,skewed by outlier 2018 data
+2,Random Forest,81%,75%,56%,2018 data removed
+3,Random Forest,77%,69%,43%,"2018 data, EverBenched data, and City data removed"
+4,Random Forest,84%,87%,54%,2018 data removed + now using GridSearch / Cross Validation
+5,Random Forest,75%,73%,56%,adjust GridSearch to focus on recall rather than accuracy
+6,Random Forest,69%,50%,77%,reduced decision threshold from 0.5 to 0.35
+7,Random Forest,77%,60%,71%,"corrected code error, adjusted decision theshold to 0.415"
+8,Random Forest,75%,58%,65%,applied SMOTE
+9,Random Forest,74%,56%,66%,applied SMOTE-EEN
+10,Random Forest,74%,56%,65%,"applied SMOTE-EEN, removed GridSearch"
+11,Support Vector Machines,75%,72%,47%,skewed by outlier 2018 data
+12,Support Vector Machines,76%,71%,34%,2018 data removed
+13,K-Nearest Neighbors (KNN),83%,81%,66%,skewed by outlier 2018 data
+14,K-Nearest Neighbors (KNN),80%,73%,55%,2018 data removed
+15,K-Nearest Neighbors (KNN),81%,77%,53%,applied SMOTE
+16,K-Nearest Neighbors (KNN),77%,61%,64%,applied SMOTE-ENN
+17,GaussianNB,100%,100%,100%,Target varable was not removed from the X factors
+18,GaussianNB,62%,66%,85%,Removed target varable from X factors # note this  is better at recalling  0 then 1
