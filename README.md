@@ -3,7 +3,7 @@
 ## Overview
 This project explores the development of a classification model to predict whether an employee is at risk of leaving a company. Specifically, the goal of the model is to help a company identify individuals who may be at risk of leaving a company, so that the company may enact appropriate measures of outreach and support for such an employee.
 
-## Dataset Description ([Source Data],(https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset))
+## Dataset Description ([Source Data](https://www.kaggle.com/datasets/tawfikelmetwally/employee-dataset))
 - Features for the model to consider when classifying each employee include: the employee’s year they started working at the company, city location, age, gender, education, payment tier, number of times benched, and years of experience in their current field.
 - The target variable is employee retention status (either the employee stays with the company, or the employee leaves the company).
 
